@@ -1,17 +1,10 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins';
 }
 
-.nav {
-  background-image: url(/images/Header-llustration-desktop@2x.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
+/*
 .list {
   display: flex;
   text-align: center;
@@ -24,22 +17,58 @@
   list-style: none;
   margin-right: 8px;
 }
+*/
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.logo a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.hamburger .navbar {
+  background-color: black;
+  height: 4px;
+  width: 25px;
+  margin-top: 2px;
+  margin-right: 20px;
+}
+
+.contents {
+  background-image: url(/images/Header-llustration-desktop@2x.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .headline {
   width: 70vw;
   height: 60vh;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 30px;
+  display: flex;
 }
 
 .primary {
   justify-content: center;
   align-items: center;
+  color: #091E42;;
 }
 
+.title{
+  font-weight: 700;
+  font-size: 48;
+}
 .primary .primaryblack {
   text-align: center;
-  font-weight: bold;
+  font-size: 48px;
+  color: #091E42;;
 }
 
 .primary .primarygreen {
@@ -55,6 +84,8 @@
   justify-content: center;
   margin-block-start: 0;
   margin-block-end: 0;
+  font-size: 20px;
+  color: #091E42;;
 }
 
 .socialmedia {
@@ -73,6 +104,9 @@
   margin-block-end: 0;
 }
 
+a :hover :visited :active {
+  color: #091E42;
+}
 .socialists {
   list-style: none;
   margin-left: 5px;
@@ -84,4 +118,9 @@
   justify-content: center;
   text-align: center;
   margin-top: 60px;
+}
+.dwn {
+  width: 40px;
+  height: 30px;
+  border-radius: 20px;
 }
