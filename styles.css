@@ -1,23 +1,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: 'Inter', sans-serif;
 }
-
-/*
-.list {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 13px;
-  padding-inline-start: 0;
-}
-
-.list .listitems {
-  list-style: none;
-  margin-right: 8px;
-}
-*/
 
 nav {
   display: flex;
@@ -25,7 +10,7 @@ nav {
   margin: 20px;
 }
 
-.logo a{
+.logo a {
   text-decoration: none;
   color: black;
   font-weight: bolder;
@@ -44,9 +29,9 @@ nav {
   background-image: url(/images/Header-llustration-desktop@2x.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
+
 .headline {
   width: 70vw;
   height: 60vh;
@@ -58,17 +43,18 @@ nav {
 .primary {
   justify-content: center;
   align-items: center;
-  color: #091E42;;
+  color: #091e42;
 }
 
-.title{
+.title {
   font-weight: 700;
   font-size: 48;
 }
+
 .primary .primaryblack {
   text-align: center;
   font-size: 48px;
-  color: #091E42;;
+  color: #091e42;
 }
 
 .primary .primarygreen {
@@ -85,7 +71,7 @@ nav {
   margin-block-start: 0;
   margin-block-end: 0;
   font-size: 20px;
-  color: #091E42;;
+  color: #091e42;
 }
 
 .socialmedia {
@@ -105,8 +91,9 @@ nav {
 }
 
 a :hover :visited :active {
-  color: #091E42;
+  color: #091e42;
 }
+
 .socialists {
   list-style: none;
   margin-left: 5px;
@@ -119,6 +106,7 @@ a :hover :visited :active {
   text-align: center;
   margin-top: 60px;
 }
+
 .dwn {
   width: 40px;
   height: 30px;
