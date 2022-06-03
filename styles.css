@@ -1,28 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-nav {
+header {
+  width: 547.58px;
   display: flex;
+  height: 48px;
+  top: 44px;
+  color: #181e25;
   justify-content: space-between;
-  margin: 20px;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  height: 28px;
+  top: 10px;
+  left: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  color: #28352F;
+  display: flex;
+
+ /* margin-left: 20px;
+  margin-top: 20px;
+  width: 90px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  */
+}
+
+.logotext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352F;
 }
 
 .logo a {
   text-decoration: none;
-  color: black;
-  font-weight: bolder;
-  margin-left: 10px;
+  color: #091e42;
+  margin-left: 70px;
 }
 
-.hamburger .navbar {
-  background-color: black;
+a :hover :visited {
+  color: #091e42;
+}
+
+nav {
+  display: flex;
+  left: 24px;
+}
+
+.hamburger {
+  /*background-color: #091e42;
   height: 4px;
   width: 25px;
   margin-top: 2px;
-  margin-right: 20px;
+  margin-right: 20px;*/
+
+  width: 18px;
+  height: 12px;
+  top: 6px;
+  margin-right: 70px;
 }
 
 .contents {
@@ -30,68 +85,84 @@ nav {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  top: 98px;
+  gap: 58px;
+  width: 547.58px;
+  height: 599.77px;
+  left: -107.63px;
+  top: 98.12px;
 }
 
 .headline {
-  width: 70vw;
-  height: 60vh;
-  margin: auto;
-  padding-top: 30px;
-  display: flex;
+  
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  width: 547px;
+  height: 726px;
+  top: 92px;
 }
 
 .primary {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #091e42;
+  margin: auto;
+  width: 327px;
+  top: 64;
 }
 
-.title {
+.primaryblack {
+  text-align: center;
+  font-style: normal;
+  font-family: 'Inter';
+  margin: auto;
   font-weight: 700;
-  font-size: 48;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  top: 158px;
+
 }
 
-.primary .primaryblack {
-  text-align: center;
-  font-size: 48px;
-  color: #091e42;
-}
-
-.primary .primarygreen {
-  text-align: center;
-  font-weight: bold;
+.primarygreen {
   color: green;
-  margin-bottom: 10px;
-  margin-top: 10px;
 }
 
+.supportingtext{
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
 .supportingtext .para {
+  top: 58;
+  font-family: 'inter';
+  font-style: normal;
   text-align: center;
-  justify-content: center;
-  margin-block-start: 0;
-  margin-block-end: 0;
   font-size: 20px;
-  color: #091e42;
+  line-height: 28px;
+  font-weight: 400;
+  justify-content: center;
+  color: #172B4D;
+
 }
 
 .socialmedia {
+  width: 170px;
+  height: 20px;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  margin-top: 25px;
+  margin: auto;
 }
 
 .ul-socialmedia {
   display: flex;
-  margin: auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: 0;
-}
-
-a :hover :visited :active {
-  color: #091e42;
 }
 
 .socialists {
@@ -104,11 +175,22 @@ a :hover :visited :active {
 .action {
   justify-content: center;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 50px;
+}
+
+.act {
+  position: absolute;
+  padding: 8px;
+  bottom: 4px;
+  width: 40px;
+  height: 40px;
+  border-radius: 32px;
+  border: 2px solid #DFE1E6;
+  background-color: #FFFFFF;
+
 }
 
 .dwn {
-  width: 40px;
-  height: 30px;
-  border-radius: 20px;
+  width: 22px;
+  height: 10px;
 }
