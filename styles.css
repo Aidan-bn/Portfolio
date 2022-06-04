@@ -17,6 +17,9 @@ header {
   align-items: center;
 }
 
+section{
+  width: 547px
+}
 .logo {
   width: 90px;
   height: 28px;
@@ -172,4 +175,26 @@ nav {
 .dwn {
   width: 22px;
   height: 10px;
+}
+
+.recent {
+  width: 327px;
+  height: 97px;
+  font-family: 'nter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  /*line-height: 52;*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: #091e42 1px solid;
+  margin: auto;
+}
+
+.indicator {
+  width: 48px;
+  height: 4px;
+  align-items: center
+  justfy-conte
 }
